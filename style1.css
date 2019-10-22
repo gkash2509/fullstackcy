@@ -1,0 +1,64 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(download4.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.signupform1
+{
+	width:300px;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.4);
+	background: #fff;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+.signupform
+{
+	color: #1c8adb;
+	margin-bottom: 30px;
+}
+.input-box1
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+}
+.signbutton1
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.signbutton1
+{
+	background-color: #21afde;
+}
+a
+{
+	text-decoration: none;
+}
+img
+{
+	width: 70px;
+	margin-top: -50px;
+}
+@media only screen and (max-width: 768px) {
+    .signupform1{
+      width : 100%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }

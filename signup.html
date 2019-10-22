@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Sign Up Form</title>
+<link rel="stylesheet" href="style.css">
+<script>
+                function validateForm() {
+                        var x = document.forms["myForm"]["fname"].value;
+                        if (x == "") {
+                                alert("Please Enter Username");
+                                return false;
+                        }
+                        var y = document.forms["myForm"]["pasw"].value;
+                        if (y == "") {
+                                alert("Please Enter Password");
+                                return false;
+                        }
+                }
+        </script>
+</head>
+<body>
+<div class="signupform">
+	<img src="download3.jpg">
+
+<h1> Sign In</h1>
+<form name="myForm"  method="post" onsubmit="validateForm()">
+<input type="email"  name="fname" class ="input-box" placeholder="Your Email">
+<input type="password" name="pasw" class ="input-box" placeholder="Your Password">
+
+<p><span><input type="checkbox"></span>I Agree to the terms of services</p>
+
+
+<input type="button" value="submit" class="signbutton">
+<hr>
+<p class ="or">OR</p><a href="SignUpform.html">
+<button type="button" class="signbutton">Create An Account</button></a>
+
+</form>
+</div>
+</body>
+</html>
